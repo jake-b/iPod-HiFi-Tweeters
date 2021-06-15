@@ -32,16 +32,21 @@ I can't speak to wheter the sound output is balanced across the whole frequency 
 ![Hole locations](../assets/hole_locations.png?raw=true)
 
 2.  Mill the holes - put the front baffle housing back into the main cabinet and screw it down with all 8 screws.  Mount this in your milling machine.  Mill down to a depth of 11mm from the surface of the baffle housing.  This will cut the hole in the baffle and part of the black structural element in the main housing to make clearance for the tweeter.
+![Milling](../assets/milling.png?raw=true)
 
 3.  Clean out all the shavings.  Clean up the hole corners with a file.
 
-4.  Carefully press fit the tweeters into the baffle housing.  Wire up the tweeters using a crossover.
+4.  Carefully press fit the tweeters into the baffle housing. 
+![Tweeter Fit](../assets/tweeter_fit.png?raw=true)
 
-5.  Test that everything works
+5. Wire up the tweeters using two crossovers.
+![Crossover](../assets/crossover.png?raw=true)
 
-6.  Cut the holes in the front fascia
+6.  Test that everything works
 
-6.	Reassemble
+7.  Cut the holes in the front fascia
+
+8.	Reassemble
 
 # Was the original one on reddit a prototype?
 
