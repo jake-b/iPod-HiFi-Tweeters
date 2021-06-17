@@ -60,6 +60,14 @@ One thing that points to the original reddit one being the work of a skillful mo
 
 If anyone knows the story behind the original one, please post a GitHub issue to this repository and I'll update this document.
 
+# Speaker Mesh Frame
+
+The iPod Hi-Fi that I used for this project came with a torn speaker mesh.  I tried to separate the frame my heating the glue but Apple used a LOT of glue to hold the two pieces together.  I would up just cytting off the back "T"-part of the frame completely, cleaning out the old speaker mesh cloth, and then wrapping the outer frame with double stick tape and new mesh.  Its better than having torn one, but a little hacked together.
+
+THis is how the front mesh cover is constructed in case it comes in handy to someone:
+
+![Speaker Mesh Frame](../assets/frame.png?raw=true)
+
 # Homework
 
 The iPod Hi-Fi is a nicely engineered product with great sound.  I much more opportunity for anyone wanting to take the work further.  (Probably not me, so this is an exercise for the reader)
