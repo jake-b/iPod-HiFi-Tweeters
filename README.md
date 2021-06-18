@@ -13,12 +13,16 @@ I'm a novice when it comes to Hi-Fi systems, amplifiers, and crossovers.  I have
 
 I have measured the mid-range speakers on the iPod Hi-Fi to be 8-ohms.  I am using 4-Ohm tweeters with a makeshift crossover consisting of a 250uH inductor and a 8uF bi-polar capacitor.  I'm sure this results in a drop in overall impedance of the system,  but it does seem to work.
 
+![Crossover Diagram](../assets/diagram.png?raw=true)
+
 I can't speak to whether the sound output is balanced across the whole frequency range, but it sounds good to my terrible ears with high frequency loss.
+
+If you know something about Hi-Fi engineering, crossovers, and have a suggestion of a better way to wire up these tweeters, then let me know.  I do know that the impenitence at the upper frequency range is much lower with this setup than it was in the original iPod Hi-Fi without the tweeters.  As I said, things seem to work fine though. 🤷‍♂️
 
 # What do you need
 
 - A 3D scanner to locate the best place to cut the holes.  The baffle housing is a complex shape and there isn't much room for error.  Luckily I've done this for you, so you don't really need to figure this out for yourself.
-- A CNC milling machine to cut the holes in the fascia and the internal speaker baffle housing.  You might be able to do this by hand with a dremel, but I don't think it would have the necessary polish.  I used a 3/8" end mill and a small file to clean up the corners.
+- A CNC milling machine to cut the holes in the fascia and the internal speaker baffle housing.  You might be able to do this by hand with a Dremel, but I don't think it would have the necessary polish.  I used a 3/8" end mill and a small file to clean up the corners.
 - Two tweeters - I chose 4-Ohm 20W-20W 1" tweeters that are about 31mm in overall diameter.  The ones I used were marked 2000047001Z and are available on eBay and AliExpress.
 - Crossover Components -  A 250uH inductor and a 8uF bi-polar capacitor.
 - Connectors - The iPod Hi-Fi uses Molex MicroFit 3.0 connectors.  You can use your own to create the crossovers.
@@ -54,7 +58,7 @@ https://www.reddit.com/r/iPodHiFi/comments/mc8l05/i_bought_this_used_ipod_hifi_t
 
 This was not a trivial modification.  It was a lot of work and involved tooling that most people don't have.  I guess its possible someone did this following a similar procedure to what I have outlined here.
 
-One thing that points to it being an Apple prototype: The front fascia is aluminum and it seems like the hole is anodized.  I intend to use a sharpie to hide the bright aluminum of the inside surface of the cutout.  If this was the work of a skilled modder, perhaps this is what they did as well?  Possibly the whole fascia was painted with matte black paint give an even finsih even through the newly cut holes.
+One thing that points to it being an Apple prototype: The front fascia is aluminum and it seems like the hole is anodized.  I intend to use a sharpie to hide the bright aluminum of the inside surface of the cutout.  If this was the work of a skilled modder, perhaps this is what they did as well?  Possibly the whole fascia was painted with matte black paint give an even finish even through the newly cut holes.
 
 One thing that points to the original reddit one being the work of a skillful modder: It does look to my eye like the fascia around the tweeters is not fully stuck down to the baffle housing.  Though I guess Apple could have made their prototype using existing parts.
 
@@ -62,9 +66,9 @@ If anyone knows the story behind the original one, please post a GitHub issue to
 
 # Speaker Mesh Frame
 
-The iPod Hi-Fi that I used for this project came with a torn speaker mesh.  I tried to separate the frame my heating the glue but Apple used a LOT of glue to hold the two pieces together.  I would up just cytting off the back "T"-part of the frame completely, cleaning out the old speaker mesh cloth, and then wrapping the outer frame with double stick tape and new mesh.  Its better than having torn one, but a little hacked together.
+The iPod Hi-Fi that I used for this project came with a torn speaker mesh.  I tried to separate the frame my heating the glue but Apple used a LOT of glue to hold the two pieces together.  I would up just cutting off the back "T"-part of the frame completely, cleaning out the old speaker mesh cloth, and then wrapping the outer frame with double stick tape and new mesh.  Its better than having torn one, but a little hacked together.
 
-THis is how the front mesh cover is constructed in case it comes in handy to someone:
+This is how the front mesh cover is constructed in case it comes in handy to someone:
 
 ![Speaker Mesh Frame](../assets/frame.png?raw=true)
 
