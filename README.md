@@ -31,6 +31,7 @@ If you know something about Hi-Fi engineering, crossovers, and have a suggestion
 # Steps
 
 1.  Disassemble the iPod Hi-Fi.  The hardest part is getting the fascia off without damaging it.  Take out both speakers, the LED, the IR receiver, and all the foam padding and place aside.
+
 2.  Determine the hole locations.  I did a 3D scan with an IR-spraying 3D scanner and used this to find where I wanted to cut the hole:
 ![Hole location](../assets/hole_location.png?raw=true)
 ![Hole locations](../assets/hole_locations.png?raw=true)
@@ -54,7 +55,9 @@ If you know something about Hi-Fi engineering, crossovers, and have a suggestion
 
 # Was the original one on reddit a prototype?
 
-https://www.reddit.com/r/iPodHiFi/comments/mc8l05/i_bought_this_used_ipod_hifi_today_and_i_realised/
+![Original Reddit Post](../assets/reddit.jpg?raw=true)
+
+Image from https://www.reddit.com/r/iPodHiFi/comments/mc8l05/i_bought_this_used_ipod_hifi_today_and_i_realised/
 
 This was not a trivial modification.  It was a lot of work and involved tooling that most people don't have.  I guess its possible someone did this following a similar procedure to what I have outlined here.
 
@@ -74,7 +77,7 @@ This is how the front mesh cover is constructed in case it comes in handy to som
 
 # Homework
 
-The iPod Hi-Fi is a nicely engineered product with great sound.  I much more opportunity for anyone wanting to take the work further.  (Probably not me, so this is an exercise for the reader)
+The iPod Hi-Fi is a nicely engineered product with great sound.  I see much more opportunity for anyone wanting to take the work further.  (Probably not me, so this is an exercise for the reader)
 
 - Internal AirPort 2 Receiver -- I did take a part a Airport Express with the thought of putting it inside.  I even made a passthrough for the power supply harness that borrows some volts from the 17v amplifier output and regulates it down to the 3.3v needed by the Airport Express.  The AE draws about 500mA.  In the end, I didn't do this for a few reasons:
 	1.  Its hard to fit.  [I've seen others that have modified the internal housing to fit the board in](https://forums.macrumors.com/threads/ipod-hifi-airplay-2-self-contained-mod.2277829/).  I didn't really want to do this.
