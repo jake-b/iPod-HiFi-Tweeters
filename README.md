@@ -13,9 +13,13 @@ I'm a novice when it comes to Hi-Fi systems, amplifiers, and crossovers.  I have
 
 I have measured the mid-range speakers on the iPod Hi-Fi to be 8-ohms.  I am using 4-Ohm tweeters with a makeshift crossover consisting of a 250uH inductor and a 8uF bi-polar capacitor.  I'm sure this results in a drop in overall impedance of the system,  but it does seem to work.
 
+I chose these 4-ohm tweeters because they seemed to visualy match what was used in the original one posted to reddit. You can get 8-ohm tweeters of a similar size but they are usually fabric domes.  I have seen aluminum dome ones as well.  The physical cutouts may be different if you chooise different tweeters.  Also the 1st order crossover will need components of different values.
+
+The result of using a 4ohm tweeters makes the amp work harder, and I cant speak to how tolerant the Apple-designed amp is to this. I dont run my Hi-Fi at full power very often anyway because it is really loud.  If I have any long term problems I'll post about it here.
+
 ![Crossover Diagram](../assets/diagram.png?raw=true)
 
-I can't speak to whether the sound output is balanced across the whole frequency range, but it sounds good to my terrible ears with high frequency loss.
+I also can't speak to whether the sound output is balanced across the whole frequency range, but it sounds good to my terrible ears with high frequency loss.
 
 If you know something about Hi-Fi engineering, crossovers, and have a suggestion of a better way to wire up these tweeters, then let me know.  I do know that the impenitence at the upper frequency range is much lower with this setup than it was in the original iPod Hi-Fi without the tweeters.  As I said, things seem to work fine though. 🤷‍♂️
 
