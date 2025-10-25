@@ -7,6 +7,13 @@ I decided to attempt this modification myself using a slightly abused iPod Hi-Fi
 ![Assembled Mod](../assets/assembled.png?raw=true)
 ![Exposed internals](../assets/exposed.png?raw=true)
 
+# A Few Requests...
+
+If anyone attempts this modificaiton, please send me pictures.  I would love to see your version of the modificaiton.
+
+**Also, if in the process you accidently destroy or find a non-functional iPod Hi-Fi in your travels...  I attempted a 5v conversion on the dock connector and failed.  I destroyed the dock connector and now I have a non-functional dock port on this iPod Hi-Fi.**
+**If you have one you're willing to let go at a reasonable cost, I would love to replace my dock with a functional unit.  I haven't seen this part for sale anywhere (I usually just see the speakers listed on eBay at an very inflated price)**
+
 # About the audio engineering
 
 I'm a novice when it comes to Hi-Fi systems, amplifiers, and crossovers.  I have done my best to engineer what I think "sounds about right" and choose parts that make sense... but if you are a Hi-Fi expert and have any suggestions for how to improve this, please open an issue in GitHub, I'd love to learn more.
@@ -31,6 +38,15 @@ If you know something about Hi-Fi engineering, crossovers, and have a suggestion
 - Crossover Components -  A 250uH inductor and a 8uF bi-polar capacitor.
 - Connectors - The iPod Hi-Fi uses Molex MicroFit 3.0 connectors.  You can use your own to create the crossovers.
 - Some adhesive foam padding - the iPod Hi-Fi is super well built.  Every wire is wrapped in foam padding. (This foam is breaking down with age on the one I have, and is now sticky.)  I wrapped any new wiring/components similarly to prevent vibration.
+
+# Parts List
+
+- Connector Socket - Digikey WM1837CT-ND - Molex 0430300001 - CONN SOCKET 20-24AWG CRIMP TIN
+- Connector Pin - Digikey WM1841CT-ND - Molex 0430310001 - CONN PIN 20-24AWG CRIMP TIN
+- Connector (Receptacle) - Digikey WM1845-ND - Molex 0436450200 - CONN RCPT HSG 2POS 3.00MM
+- Connector (Plug) - Digikey WM1855-ND - Molex 0436400201 - CONN PLUG HSG 2POS 3.00MM
+- 250uH Inductor - Digikey M8273-ND - FIXED IND 250UH 2.5A 170 MOHM TH
+- 8uF Capacitor - I think I sourced it from eBay and did not buy it from Digikey
 
 # Steps
 
@@ -94,3 +110,8 @@ The iPod Hi-Fi is a nicely engineered product with great sound.  I see much more
 	You could, also, for example, use a Raspberry Pi with a transistor or relay, and connect up to the wired audio input, then program the Pi to short the proper pins on the audio-in jack to make it think it has a cable plugged in.... and then un-short it when not in use, leaving the audio jack fully functional when not in use by the internal audio source.
 
 - Better power solution -  [the Hi-Fi's power supply outputs 17v for the amplifier, 6v and 3.3v for other circuity](http://www.whatsinside.info/apple-ipod-hi-fi-dock/apple-ipod-hifi-dock-power-supply-label-detail/). (Not sure what it uses the 6v for).  I could imagine putting some sort of LiPo pack in the battery comparment and removing the the power supply board completely-- replacing it with a LiPo BMS and various buck/boost regulators to provide these needed voltage rails.  The AC connector is held in with screws, so a USB-C connector could be fashioned to screw into the same place.  Ideally this theoretical BMS would accept the various voltage ranges provided by USB-C PD, and charge the batteries, and also provide pass-through power.  One note, the iPod Hi-Fi's normal power supply provides LESS power when running on batteries, so a solution like this could let the Hi-Fi run on full power even on batteries.  [The supply puts out other signals too](https://github.com/newtonresearch/ipod-hifi-smps/blob/master/PA-3150%20PCB.pdf), such as SLEEP EN, Battery Good, Battery Low, etc that would have to be reverse engineered a bit.  I did a little searching, but couldn't find anything that immediately ticked all the boxes for this solution.
+
+# Updates
+
+- Added "A Few Requests..." section.
+- Added info on the connectors used.
